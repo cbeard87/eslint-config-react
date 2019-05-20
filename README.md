@@ -18,7 +18,7 @@ npx install-peerdeps --dev @cbeard87/eslint-config-react
 ```json
 {
   "extends": [
-    "react"
+    "@cbeard87/eslint-config-react"
   ]
 }
 ```
@@ -57,7 +57,7 @@ In your `.eslintrc` file, it should look like this:
 ```json
 {
   "extends": [
-    "react"
+    "@cbeard87/eslint-config-react"
   ]
 }
 ```
@@ -71,7 +71,7 @@ If you'd like to overwrite eslint or prettier settings, you can add the rules in
 ```js
 {
   "extends": [
-    "react"
+    "@cbeard87/eslint-config-react"
   ],
   "rules": {
     "no-console": 2,
